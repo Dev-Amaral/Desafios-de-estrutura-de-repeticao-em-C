@@ -1,5 +1,7 @@
 #include<stdio.h>
 #include<math.h>
+/*Faça um programa que calcule a tangente e cosseno de um número e apresente esses valores aproximado para cima.*/
+
 int main(){
 	float tg, cosse,x;
 	char resp;
