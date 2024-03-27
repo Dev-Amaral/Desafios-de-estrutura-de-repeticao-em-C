@@ -1,4 +1,11 @@
 #include <stdio.h>
+/*Foi feita uma pesquisa entre os habitantes de uma região. Foram
+coletados os dados de nome, idade, sexo (M/F) e salário. Faça um programa que calcule e mostre:
+- A média dos salários do grupo;
+- A maior e a menor idade do grupo;
+- A quantidade de mulheres na região;
+- A idade e o sexo da pessoa que possui o menor salário;
+Finalize a entrada de dados ao ser digitada uma idade negativa.*/
 int main(){
 	float sal,idade,total=0, menorsal=99999999999,maiorida=0,menorida=99999999999,mulher=0,i=0,idademenorsal,sexomenorsal;
 	char sexo, nome[40];
