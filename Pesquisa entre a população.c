@@ -1,11 +1,16 @@
 #include<stdio.h>
-/* Foi feita uma pesquisa entre os habitantes de uma região. Foram
-coletados os dados de nome, idade, sexo (M/F) e salário. Faça um programa que calcule e mostre:
-- A média dos salários do grupo;
--A maior e a menor idade do grupo;
-- A quantidade de mulheres na região;
-- A idade e o sexo da pessoa que possui o menor salário;
-Finalize a entrada de dados ao ser digitada uma idade negativa.*/
+/* Foi realizada uma pesquisa de algumas características físicas da
+população de uma certa região, a qual coletou os seguintes dados referentes a
+cada habitante para serem analisados
+- sexo: M (masculino) e F (feminino)
+- cor dos olhos: A (azuis), V (verdes), C (castanhos), P (pretos)
+- cor dos cabelos: L (louros), C (castanhos) e P (pretos)
+- idade
+Faça um algoritmo que determine e escreva:   
+- a maior idade dos habitantes
+- a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive e
+que tenham olhos verdes e cabelos louros.
+O programa deve finalizar quando o usuário digitar o valor -1 de entrada como idade*/
 int main(){
 char sexo, corolho,corcabelo;
 int idade,maior=0,qtdgatinhas=0;
