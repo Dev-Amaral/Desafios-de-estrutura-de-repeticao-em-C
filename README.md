@@ -1,6 +1,6 @@
 Aqui está a prova do Professor Djan Almeida Santos
 
-**1ª ****Questão**: Desenvolva um programa em linguagem C que efetue a leitura do sexo e da
+**1ª Questão**: Desenvolva um programa em linguagem C que efetue a leitura do sexo e da
 altura de pessoas em uma academia e calcule o peso ideal utilizando as seguintes fórmulas:
 para homens: (72,7 * altura) – 58
 para mulheres: (62,1 * altura) – 44,7
