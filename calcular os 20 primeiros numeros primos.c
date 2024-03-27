@@ -1,5 +1,7 @@
 #include<stdio.h>
-
+/*Faça um algoritmo que calcule os 20 primeiros números primos, dados
+os três primeiros 1,2 e 3.
+*/
 int main(){
 	int i, num=0,parametros, qtdprimos=0;
 	//Para um numero ser primo ele deve ser divisivel por 1 e por ele mesmo, se ele for divisivel por 3 numeros ele nao é primo
